@@ -1,0 +1,6 @@
+gast==0.2.2
+imageio==2.5.0
+matplotlib==3.2.1
+numpy==1.16.4
+tensorflow-gpu==1.14
+tqdm==4.31.1
