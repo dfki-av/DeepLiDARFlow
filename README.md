@@ -27,7 +27,7 @@ Then, the folder should be placed in the KITTI data set (training) folder.
  
 ## Maximum Epochs and Learning Rate Strategy
 - For pre-training on FlyingThings3D, the maximum epochs number is defined with 600 epochs. The initial learning rate is 0.0001 and it's reduced to 0.00001 in case of over-fitting.
-- For fine-tuning on KITTI, the model needs to be fine-tuned for 200. First 100 epochs are trained using 0.0001 learning rate, then it's reduced to 0.00001 for the rest of epochs.
+- For fine-tuning on KITTI, the model needs to be fine-tuned with 200 epochs. First 100 epochs are trained using 0.0001 learning rate, then it's reduced to 0.00001 for the rest epochs.
 - If the training or fine-tuning will be continued after changing learning rates or maximum epochs number, the `--best_checkpoint` flag should be activated to call the best weights for continuing the training.  
 
 ## Evaluation and Inference
